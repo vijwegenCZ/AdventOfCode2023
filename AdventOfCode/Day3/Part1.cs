@@ -51,7 +51,6 @@ internal static class Part1
 
                 if(relevantPrevSymbols.Any() || relevantCurrentSymbols.Any() || relevantNextSymbols.Any())
                 {
-                    Console.WriteLine($"Summed {currentNumber.Value}");
                     currentSum += currentNumber.Value;
                 }
             }
